@@ -5,5 +5,4 @@ import com.pasukanlangit.id.cleanarch_ktorclient.R
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
-
 }

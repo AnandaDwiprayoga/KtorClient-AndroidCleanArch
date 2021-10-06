@@ -7,24 +7,14 @@
     android:gravity="center"
     tools:context=".presentation.home.HomeFragment">
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginHorizontal="16dp"
-        android:autofillHints=""
-        android:hint="@string/username_or_email"
-        android:inputType="text"
-        tools:ignore="TextFields" />
+  <TextView
+      android:id="@+id/tv_greeting"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAlignment="center"
+      tools:text="@string/text_greeting"
+      android:layout_marginHorizontal="16dp"
+      android:textSize="24sp"/>
 
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="@string/password"
-        android:layout_marginHorizontal="16dp"
-        android:inputType="text"
-        android:autofillHints=""
-        tools:ignore="TextFields" />
 
 </LinearLayout>
